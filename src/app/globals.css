@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
 
 body {
   margin: 0;
@@ -11,11 +12,50 @@ body {
 
 .header {
   background-image: url(../../public/pexels-jan-van-bizar-12224996.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
+  color: white;
 }
 
 .menu_buttons {
   color: white;
   font-weight: bold;
+}
+
+.hero_section .text_content {
+  margin-top: 16rem;
+}
+
+.hero_section .header_text {
+  font-size: 12rem;
+  line-height: 12rem;
+}
+
+.hero_section .header_text > .marked_text {
+  color: #1B85E8;
+}
+
+.hero_section .scroll_page_btn {
+  margin: 1rem 0 0 .5rem;
+  font-size: 1.5rem;
+}
+
+.hero_section .scroll_page_btn > svg {
+  display: inline;
+  margin-left: .5rem;
+}
+
+.header_text {
+  font-weight: bold;
+  font-size: 8rem;
+}
+
+.text_content {
+  font-size: 2rem;
+}
+
+.first_section .img_placeholder {
+  background-image: url(../../public/pexels-kelly-2800832.jpg);
+  aspect-ratio: 16 / 9;
+  margin-left: 4rem;
+  min-width: 100%;
+  min-height: 100%;
 }
