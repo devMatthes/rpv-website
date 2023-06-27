@@ -59,3 +59,53 @@ body {
   min-width: 100%;
   min-height: 100%;
 }
+
+.second_section .img_placeholder {
+  background-image: url(../../public/pexels-kindel-media-9875676.jpg);
+  aspect-ratio: 16 / 9;
+  margin-left: 4rem;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.third_section .img_placeholder {
+  background-image: url(../../public/orlen.png);
+  aspect-ratio: 16 / 9;
+  margin-left: 4rem;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.fourth_section .img_placeholder {
+  background-image: url(../../public/image-content.png);
+  aspect-ratio: 16 / 9;
+  margin-left: 4rem;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.contact_section {
+  background-color: #1B85E8;
+  color: white;
+}
+
+.contact_section .img_placeholder {
+  aspect-ratio: 16 /9;
+  min-width: 100%;
+  min-height: 100%;
+  opacity: 30%;
+}
+
+.faq_section .text_content .question {
+  font-weight: bold;
+  font-size: 4rem;
+}
+
+.faq_section .text_content .answer {
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.footer .text_content{
+  padding-bottom: 1rem;
+}
