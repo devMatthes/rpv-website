@@ -109,3 +109,9 @@ body {
 .footer .text_content{
   padding-bottom: 1rem;
 }
+
+.fb:hover, .google:hover {
+  color: #233E9F;
+  font-size: 1.5rem;
+  transition-duration: 5ms;
+}
